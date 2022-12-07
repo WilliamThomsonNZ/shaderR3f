@@ -58,7 +58,7 @@ const WaveShaderMaterial = shaderMaterial(
 
 extend({ WaveShaderMaterial })
 
-const test = () => {
+const Test = () => {
   const ref = useRef(null)
   const [hovered, setHover] = useState(0.5)
   const [image] = useLoader(THREE.TextureLoader, ['/willToon.png'])
@@ -75,4 +75,4 @@ const test = () => {
   )
 }
 
-export default test
+export default Test
